@@ -1,0 +1,8 @@
+11:55:25 **** Build of configuration release for project lab4 ****
+make MODE=release all 
+make: Warning: File 'out/clang-release//node.o.d' has modification time 19396 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+11:55:26 Build Finished. 0 errors, 0 warnings. (took 472ms)
+

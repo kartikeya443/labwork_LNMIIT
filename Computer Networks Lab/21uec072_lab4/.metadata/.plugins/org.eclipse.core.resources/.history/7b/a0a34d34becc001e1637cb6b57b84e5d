@@ -1,0 +1,21 @@
+
+#include "node.h"
+
+Define_Module(Node);
+
+void Node::initialize()
+{
+    address=par("nodeId");
+    in=gate("in");
+    out=gate("out");
+    if(address==1)
+    {
+        cMessage *event = new cMessage();
+        scheduleAt(0,event);
+    }
+}
+
+void Node::handleMessage(cMessage *msg)
+{
+    // TODO - Generated method body
+}

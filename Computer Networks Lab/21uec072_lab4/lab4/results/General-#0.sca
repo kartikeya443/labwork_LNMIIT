@@ -1,0 +1,26 @@
+version 3
+run General-0-20240216-11:55:27-6486
+attr configname General
+attr datetime 20240216-11:55:27
+attr datetimef 20240216-115527
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Twonodes
+attr processid 6486
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Twonodes
+
+par Twonodes.N1 typename "\"Node\""
+par Twonodes.N1 nodeId 1
+par Twonodes.N2 typename "\"Node\""
+par Twonodes.N2 nodeId 2
+par Twonodes typename "\"Twonodes\""
+

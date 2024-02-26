@@ -1,0 +1,15 @@
+17:18:42 **** Build of configuration release for project lab4 ****
+make MODE=release all 
+node.cc
+Creating executable: out/clang-release//lab4
+17:18:57 **** Incremental Build of configuration release for project lab4 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+17:22:13 **** Incremental Build of configuration release for project lab4 ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+11:55:25 **** Build of configuration release for project lab4 ****
+make MODE=release all 
+make: Warning: File 'out/clang-release//node.o.d' has modification time 19396 s in the future
+make: Nothing to be done for 'all'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
